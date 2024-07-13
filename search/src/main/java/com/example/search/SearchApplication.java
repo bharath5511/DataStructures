@@ -1,6 +1,7 @@
 package com.example.search;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.search.searching.BinarySearch;
+import com.example.search.searching.LinearSearch;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

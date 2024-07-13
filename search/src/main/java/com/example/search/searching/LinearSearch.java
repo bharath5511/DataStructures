@@ -1,4 +1,4 @@
-package com.example.search;
+package com.example.search.searching;
 
 import java.lang.reflect.Array;
 
