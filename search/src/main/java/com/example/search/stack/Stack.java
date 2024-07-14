@@ -1,5 +1,8 @@
 package com.example.search.stack;
 
+/*
+    * This is an implementation of stack with fixed array in size
+*/
 public class Stack {
     int[] stack = new int[5];
     int top = 0;
