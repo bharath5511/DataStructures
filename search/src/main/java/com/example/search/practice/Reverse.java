@@ -2,7 +2,8 @@ package com.example.search.practice;
 
 public class Reverse {
     public static void main(String[] args) {
-        System.out.println(isPalindrome(-121));
+//        System.out.println(isPalindrome(-121));
+        System.out.println(isPalindrome(2022));
     }
         public static boolean isPalindrome(int x) {
 //            StringBuffer sb2 = new StringBuffer(String.valueOf(x));
@@ -11,15 +12,13 @@ public class Reverse {
 //            }
 //            return false;
 
-            int sum = 0, target = x;
+            int res = 0, target = x;
 
             while (x > 0) {
+                res = res*10 + x%10;
+                x = x/10;
 
-                int rem = x % 10;
-                x = x / 10;
-
-                sum = sum * 10 + rem;
             }
-            return sum == target;
+            return res == target;
         }
 }
